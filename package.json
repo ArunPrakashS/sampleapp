@@ -1,0 +1,17 @@
+{
+  "name": "sampleapp",
+  "version": "1.0.0",
+  "description": "To create a web server",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "Arun",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "config": {
+    "port":"3000"
+  }
+}
