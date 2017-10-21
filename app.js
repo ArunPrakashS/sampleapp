@@ -11,7 +11,7 @@ exp.get('/data',(req,res) => {
     res.send("Hi. You called Data");
 });
 
-var port = process.env.npm_package_config_port;
+var port = process.env.PORT || process.env.npm_package_config_port;
 exp.listen(port, function(){
     console.log("Listening on Port " +port);
 });
